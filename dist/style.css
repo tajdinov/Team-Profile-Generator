@@ -1,0 +1,41 @@
+.jumbotron {
+    background: rgb(8,0,79);
+    background: linear-gradient(90deg, rgba(8,0,79,1) 14%, rgba(9,0,162,1) 36%, rgba(53,53,255,1) 67%, rgba(0,212,255,1) 100%);
+}
+
+.head {
+    color: rgb(255,255,255);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-header {
+    background-color: aliceblue;
+}
+
+.card-body {
+    background-color: #0f0e0f57
+}
+
+.manager {
+    background-color: #001eff;
+}
+
+.engineer {
+    background-color: #00ccff;
+}
+
+.intern {
+    background-color: #00ffae
+}
+
+.employee-card {
+    box-shadow: 8px 7px 8px 3px rgba(0, 0, 0, 0.237);
+    border: none;
+    border-radius: 2px;
+}
